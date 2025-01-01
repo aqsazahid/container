@@ -1,0 +1,27 @@
+Script started on 2025-01-01 13:55:16+05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="142" LINES="36"]
+[?2004h]0;dell@dell-Inspiron-5558: ~/projects/part12-containers-applications[01;32mdell@dell-Inspiron-5558[00m:[01;34m~/projects/part12-containers-applications[00m$ [7mdocker run -it ubuntu bash[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker run -it ubuntu bash
+[A
+[?2004ldocker: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Head "http://%2Fvar%2Frun%2Fdocker.sock/_ping": dial unix /var/run/docker.sock: connect: permission denied.
+See 'docker run --help'.
+[?2004h]0;dell@dell-Inspiron-5558: ~/projects/part12-containers-applications[01;32mdell@dell-Inspiron-5558[00m:[01;34m~/projects/part12-containers-applications[00m$ [7msudo systemctl start docker[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl start docker
+[A
+[?2004l[sudo] password for dell: 
+[?2004h]0;dell@dell-Inspiron-5558: ~/projects/part12-containers-applications[01;32mdell@dell-Inspiron-5558[00m:[01;34m~/projects/part12-containers-applications[00m$ [7msudo docker run -it ubuntu bash[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo docker run -it ubuntu bash
+[A
+[?2004l[?2004h]0;root@a2ee6c7f3ed5: /root@a2ee6c7f3ed5:/# [7mmkdir -p /usr/src/app[27m
+[Aroot@a2ee6c7f3ed5:/# mkdir -p /usr/src/app
+[A
+[?2004l[?2004h]0;root@a2ee6c7f3ed5: /root@a2ee6c7f3ed5:/# [K[7mtouch /usr/src/app/index.js[27m
+[Aroot@a2ee6c7f3ed5:/# touch /usr/src/app/index.js
+[A
+[?2004l[?2004h]0;root@a2ee6c7f3ed5: /root@a2ee6c7f3ed5:/# [K[7mexit[27m
+[Aroot@a2ee6c7f3ed5:/# exit
+[A
+[?2004lexit
+[?2004h]0;dell@dell-Inspiron-5558: ~/projects/part12-containers-applications[01;32mdell@dell-Inspiron-5558[00m:[01;34m~/projects/part12-containers-applications[00m$ sudo docker run -it ubuntu bash[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2025-01-01 13:57:17+05:00 [COMMAND_EXIT_CODE="0"]
